@@ -43,7 +43,7 @@ header .container .header .bottonis {
   border-radius: 4px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   transition: 0.3s;
 }
 
@@ -58,7 +58,6 @@ header .container .header .bottonis .taxt_btn {
   font-size: 16px;
 }
 
-/* Input */
 header .container .header .name .malumot_kirit {
   width: 360px;
   height: 40px;
@@ -75,6 +74,11 @@ header .container .header .bootom_to {
   align-items: center;
   gap: 10px;
   transition: 0.2s;
+}
+
+.text_shop img {
+  width: 24px;
+  height: 24px;
 }
 
 header .container .header .text_shop:hover,
@@ -244,7 +248,7 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     padding: 0 20px;
   }
   .one_section .container .prodact_one h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   main .container .text_main h1 {
     font-size: 30px;
@@ -266,8 +270,13 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   .one_section .container .prodact_one {
     flex-direction: column;
   }
+  .one_section .container .prodact_one img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .one_section .container .prodact_one h1 {
     font-size: 32px;
+    margin-bottom: 100px;
   }
   main {
     padding-top: 40px;
@@ -294,6 +303,10 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   }
   .one_section .container .prodact_one h1 {
     font-size: 24px;
+  }
+  .one_section .container .prodact_one img {
+    width: 150px;
+    margin-top: 50px;
   }
   main .container .text_main h1 {
     font-size: 24px;
@@ -323,7 +336,6 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     transform: none;
   }
 }
-/* SPECIAL OFFERS */
 .special-offers {
   padding: 50px 0;
 }
@@ -353,7 +365,6 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   background: #70c05b;
 }
 
-/* MAP SECTION */
 .shops {
   padding: 50px 0;
 }
@@ -383,7 +394,6 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   border-radius: 8px;
 }
 
-/* ARTICLES */
 .articles {
   padding: 50px 0;
 }
@@ -443,13 +453,12 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
 }
 
 .footer {
-  background-color: #ffffff;
+  background-image: url("./img_main/footer.svg");
   padding: 20px 0;
   text-align: center;
   font-family: "Rubik", sans-serif;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #eee;
-  display: flex;
 }
 .footer .footer-content {
   display: flex;

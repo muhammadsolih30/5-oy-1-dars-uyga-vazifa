@@ -41,7 +41,7 @@ header .container .header .bottonis {
   border-radius: 4px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   transition: 0.3s;
 }
 header .container .header .bottonis:hover {
@@ -54,7 +54,6 @@ header .container .header .bottonis .taxt_btn {
   font-size: 16px;
 }
 
-/* Input */
 header .container .header .name .malumot_kirit {
   width: 360px;
   height: 40px;
@@ -72,6 +71,13 @@ header .container .header .bootom_to {
   gap: 10px;
   transition: 0.2s;
 }
+.text_shop{
+  img{
+    width: 24px;
+    height: 24px;
+  }
+}
+
 header .container .header .text_shop:hover,
 header .container .header .main:hover,
 header .container .header .bootom_to:hover {
@@ -218,7 +224,7 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     padding: 0 20px;
   }
   .one_section .container .prodact_one h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   main .container .text_main h1 {
     font-size: 30px;
@@ -240,9 +246,14 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   }
   .one_section .container .prodact_one {
     flex-direction: column;
+    img{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
   }
   .one_section .container .prodact_one h1 {
     font-size: 32px;
+    margin-bottom: 100px;
   }
   main {
     padding-top: 40px;
@@ -270,6 +281,12 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   }
   .one_section .container .prodact_one h1 {
     font-size: 24px;
+  }
+  .one_section .container .prodact_one{
+    img{
+      width: 150px;
+      margin-top: 50px;
+    }
   }
   main .container .text_main h1 {
     font-size: 24px;
@@ -300,7 +317,7 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     transform: none;
   }
 }
-/* SPECIAL OFFERS */
+
 .special-offers {
   padding: 50px 0;
   h2 {
@@ -315,17 +332,26 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     padding: 20px;
     border-radius: 8px;
     color: #fff;
-    h3 { margin-bottom: 10px; }
-    p { font-size: 14px; }
-    &.orange { background: #ff6633; }
-    &.green { background: #70c05b; }
+    h3 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+    &.orange {
+      background: #ff6633;
+    }
+    &.green {
+      background: #70c05b;
+    }
   }
 }
 
-/* MAP SECTION */
 .shops {
   padding: 50px 0;
-  h2 { margin-bottom: 20px; }
+  h2 {
+    margin-bottom: 20px;
+  }
   .filter-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -339,7 +365,9 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
       color: #fff;
       cursor: pointer;
       transition: 0.2s;
-      &:hover { background: green; }
+      &:hover {
+        background: green;
+      }
     }
   }
   .map-box img {
@@ -348,7 +376,6 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   }
 }
 
-/* ARTICLES */
 .articles {
   padding: 50px 0;
   .articles-header {
@@ -374,10 +401,21 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    img { width: 100%; border-radius: 8px; }
-    .date { font-size: 12px; color: #999; }
-    h3 { font-size: 16px; }
-    p { font-size: 14px; flex: 1; }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .date {
+      font-size: 12px;
+      color: #999;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+      flex: 1;
+    }
     button {
       align-self: flex-start;
       padding: 8px 16px;
@@ -396,15 +434,13 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
   }
 }
 
-
 .footer {
-  background-color: #ffffff;
+  background-image: url('./img_main/footer.svg');
   padding: 20px 0;
   text-align: center;
   font-family: "Rubik", sans-serif;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #eee;
-  display: flex;
 
   .footer-content {
     display: flex;
@@ -434,7 +470,8 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
 
   .social-icons {
     margin-top: 10px;
-
+    // display: flex;
+    // flex-direction: column;
     a {
       margin: 0 8px;
       color: #333;
@@ -463,3 +500,6 @@ main .container .card_main .child .text_img_bor .birinchi_btn_01:hover {
     color: #666;
   }
 }
+
+
+

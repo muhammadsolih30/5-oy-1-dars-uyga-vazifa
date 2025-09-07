@@ -1,4 +1,4 @@
-/* Umumiy sozlamalar */
+
 * {
   padding: 0;
   margin: 0;
@@ -15,7 +15,7 @@ body {
   padding: 0 30px;
 }
 
-/* HEADER */
+
 header {
   width: 100%;
   background-color: #ffffff;
@@ -33,7 +33,6 @@ header .container .header {
   gap: 10px;
 }
 
-/* Tugmalar */
 header .container .header .bottonis {
   width: 140px;
   height: 40px;
@@ -62,7 +61,6 @@ header .container .header .name .malumot_kirit {
   border-radius: 4px;
 }
 
-/* Header elementlari */
 header .container .header .text_shop,
 header .container .header .main,
 header .container .header .bootom_to {
@@ -89,7 +87,6 @@ header .container .header .bootom_to img {
   height: 24px;
 }
 
-/* SECTION 1 */
 .one_section {
   background-image: url("./imgheadir/Sliders (1).svg");
   background-size: cover;

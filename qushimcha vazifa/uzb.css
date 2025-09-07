@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Inter', sans-serif;
+   background-color: #0d1117;
+   color: #c9d1d9;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+.section-divider {
+   height: 1px;
+   background: linear-gradient(90deg, transparent, #232d39, transparent);
+   margin: 4rem 0;
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+.fade-in {
+   animation: fadeIn 0.8s ease-out forwards;
+}
+
+.project-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover {
+   color: #58a6ff;
+}

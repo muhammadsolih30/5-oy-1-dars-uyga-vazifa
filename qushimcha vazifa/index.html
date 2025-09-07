@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MS Rise</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="./uzb.css">
+</head>
+
+<body class="bg-[#0d1117] text-[#c9d1d9]">
+
+   <header class="fixed top-0 left-0 w-full bg-[#0d1117]/80 backdrop-blur-sm z-50 transition-all duration-300">
+      <nav class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6 md:px-8">
+         <a href="#hero" class="text-2xl font-bold text-white">MS Rise</a>
+         <ul class="flex space-x-6 md:space-x-10 text-lg">
+            <li><a href="#about" class="nav-link transition-colors duration-200">Men haqimda</a></li>
+            <li><a href="#projects" class="nav-link transition-colors duration-200">Loyihalar</a></li>
+            <li><a href="#contact" class="nav-link transition-colors duration-200">Aloqa</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main class="max-w-6xl mx-auto px-6 md:px-8 pt-24 pb-16">
+
+      <section id="hero" class="min-h-[calc(100vh-6rem)] flex flex-col justify-center items-center text-center">
+         <div class="fade-in delay-100">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-white mb-4 animate-pulse">Assalomu alaykum men Muhammadsolih Abduvosiyev</h1>
+            <p class="text-lg md:text-xl text-[#8b949e] max-w-2xl mx-auto mb-8">
+               Men kreativ va interaktiv veb-saytlar yaratishga ishtiyoqi bor bo'lgan frontend dasturchiman.
+            </p>
+            <a href="#projects"
+               class="inline-block bg-[#238636] text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 hover:bg-[#2ea043]">
+               Loyihalarimni ko'rish
+            </a>
+         </div>
+      </section>
+      <div class="section-divider"></div>
+      <section id="about" class="py-16 fade-in delay-200">
+         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Men haqimda</h2>
+         <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-lg text-[#8b949e]">
+               <p class="mb-6">
+                  Men frontend dasturlash bo'yicha tahsil olaman va **HTML**, **CSS**, **JavaScript** texnologiyalari
+                  bilan ishlayman. Men veb-saytlarning foydalanuvchi interfeyslarini yaratishga va ularni optimal
+                  ishlashini ta'minlashga e'tibor qarataman.
+               </p>
+               <p>
+                  Yangi texnologiyalarni o'rganishga va zamonaviy dizayn yechimlarini qo'llashga qiziqaman. Har bir
+                  loyihada foydalanuvchi uchun qulay va jozibador interfeys yaratishga harakat qilaman.
+               </p>
+            </div>
+            <div class="flex justify-center">
+               <img src="https://placehold.co/300x300/1e262f/ffffff?text=Sizning+rasmingiz" alt="Profil rasmi"
+                  class="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-[#238636] transform transition-transform duration-300 hover:scale-105">
+            </div>
+         </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section id="projects" class="py-16 fade-in delay-300">
+         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Loyihalarim</h2>
+         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+               class="project-card bg-[#1e262f] p-6 rounded-lg shadow-md transition-transform duration-300 cursor-pointer">
+               <h3 class="text-xl font-bold text-white mb-2">Veb-do'kon</h3>
+               <p class="text-[#8b949e] mb-4">
+                  Modern veb-do'kon interfeysi, mahsulotlar ro'yxati va savat funksiyasi.
+               </p>
+               <div class="flex flex-wrap gap-2 text-sm">
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">HTML</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">CSS</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">JavaScript</span>
+               </div>
+            </div>
+
+            <div
+               class="project-card bg-[#1e262f] p-6 rounded-lg shadow-md transition-transform duration-300 cursor-pointer">
+               <h3 class="text-xl font-bold text-white mb-2">Portfolio</h3>
+               <p class="text-[#8b949e] mb-4">
+                  O'zbekiston madaniyatidan ilhomlangan shaxsiy portfolio. Animatsiyalar va chiroyli dizayn.
+               </p>
+               <div class="flex flex-wrap gap-2 text-sm">
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">HTML</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">CSS</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">Tailwind CSS</span>
+               </div>
+            </div>
+
+            <div
+               class="project-card bg-[#1e262f] p-6 rounded-lg shadow-md transition-transform duration-300 cursor-pointer">
+               <h3 class="text-xl font-bold text-white mb-2">Ob-havo ilovasi</h3>
+               <p class="text-[#8b949e] mb-4">
+                  API'dan foydalanib, real vaqtda ob-havo ma'lumotlarini ko'rsatuvchi dastur.
+               </p>
+               <div class="flex flex-wrap gap-2 text-sm">
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">HTML</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">CSS</span>
+                  <span class="bg-[#30363d] text-[#8b949e] px-2 py-1 rounded-full">JavaScript</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <section id="contact" class="py-16 fade-in delay-400">
+         <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Men bilan bog'lanish</h2>
+         <div class="bg-[#1e262f] p-8 rounded-lg max-w-md mx-auto">
+            <form class="space-y-6">
+               <div>
+                  <label for="name" class="block text-sm font-medium text-[#8b949e]">Ismingiz</label>
+                  <input type="text" id="name" name="name"
+                     class="mt-1 block w-full px-4 py-2 bg-[#0d1117] border border-[#30363d] rounded-md focus:outline-none focus:ring-2 focus:ring-[#238636]">
+               </div>
+               <div>
+                  <label for="email" class="block text-sm font-medium text-[#8b949e]">Elektron pochta</label>
+                  <input type="email" id="email" name="email"
+                     class="mt-1 block w-full px-4 py-2 bg-[#0d1117] border border-[#30363d] rounded-md focus:outline-none focus:ring-2 focus:ring-[#238636]">
+               </div>
+               <div>
+                  <label for="message" class="block text-sm font-medium text-[#8b949e]">Xabar</label>
+                  <textarea id="message" name="message" rows="4"
+                     class="mt-1 block w-full px-4 py-2 bg-[#0d1117] border border-[#30363d] rounded-md focus:outline-none focus:ring-2 focus:ring-[#238636]"></textarea>
+               </div>
+               <div>
+                  <button type="submit"
+                     class="w-full bg-[#238636] text-white font-semibold py-3 px-6 rounded-md transition-all duration-300 transform hover:scale-105 hover:bg-[#2ea043]">
+                     Yuborish
+                  </button>
+               </div>
+            </form>
+         </div>
+      </section>
+
+   </main>
+   <footer class="text-center py-6 text-sm text-[#8b949e]">
+      <p>&copy; 2025 Muhammadsolih Abduvosiyev. Barcha huquqlar himoyalangan.</p>
+   </footer>
+
+</body>
+
+</html>
